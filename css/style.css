@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ol,ul{
+    list-style-type: none;
+}
+.img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* =============commmon css end=============== */
+/* ====================menu part======================= */
+#back{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.logo{
+    float: left;
+    width: 250px;
+}
+.logo img{
+    padding-top: 34px;
+}
+.menu{
+    float: left;
+    width: 920px;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #ffffff;
+    padding-left: 42px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 90px;
+    transition: 0.4s;
+}
+.menu ul li a:hover{
+    color: #28b8d8;
+}
+/* ====================menu part======================= */
+/* ==================banner part start==================== */
+#banner-back{
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 330px;
+    padding-bottom: 250px;
+}
+.banner-text{
+    text-align: center;
+}
+.banner-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.banner-text h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.banner-text p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+}
+/* ==================banner part end==================== */
+/* ================about start====================== */
+.about-text{
+    padding-top: 75px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.about-text h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #444444;
+}
+.about-text h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+/* ================about end====================== */
+/* ================services======================== */
+.services-text{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.services-text h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+
+}
+
+.gal-item{
+    float: left;
+    width: 370px;
+    border: 1px solid #e3e3e3;
+    padding: 15px;
+    text-align: center;
+    
+  
+}
+.gal-item img{
+  width: 100%;
+  
+}
+.br{
+    margin: 0 30px;
+}
+#spc{
+    padding-bottom: 81px;
+}
+/* ================services======================== */
+/* ================gallery============================= */
+#bbb{
+    background: #2c2c2c;
+    padding-top: 46px;
+    padding-bottom: 44px;
+}
+.gallery-text{
+    text-align: center;
+    padding-bottom: 42px;
+}
+.gallery-text h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #d5d5d5;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.gallery-text h3::after {
+    position: absolute;
+    content: '';
+    background: #535353;
+    height:1px;
+    width: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -110px;
+}.gallery-text h3::before {
+    position: absolute;
+    content: '';
+    background: #535353;
+    height:1px;
+    width: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -110px;
+}
+.gal-main{
+    float: left;
+    width: 25%;
+}
+.gal-main img{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.gallery{
+    text-align: center;
+}
+.gallery a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    border: 1px solid #797979;
+    padding: 18px 20px;
+    
+    
+}
+/* ================gallery============================= */

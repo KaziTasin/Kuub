@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* ==================== Common css End ========================== */
+
+/* ======================== Header Part css Start ================= */
+
+#header {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+}
+
+.logo img {
+    padding-top: 34px;
+}
+
+.menu {
+    width: 970px;
+    float: left;
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 90px;
+    padding-left: 42px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.menu ul li a:hover {
+    color: #28b8d8;
+}
+
+/* ================ Banner Part css Start =========================== */
+
+#banner {
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 330px;
+    padding-bottom: 247px;
+    position: relative;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.banner-text h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.banner-text p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* ====================== About Part css Start ========================== */
+
+#about {
+    padding-top: 72px;
+    padding-bottom: 80px;
+}
+
+.about-text {
+    text-align: center;
+}
+
+.about-text h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #444444;
+    padding-bottom: 15px;
+}
+
+.about-text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+
+/* ======================== Service Part css Start ============================ */
+
+#service {
+    padding-bottom: 80px;
+}
+
+.service-head h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #444444;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.service-item {
+    width: 370px;
+    float: left;
+    border: 1px solid #e3e3e3;
+    padding: 15px;
+}
+
+.service-item img {
+    width: 100%;
+}
+
+.service-item h3 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #444444;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.service-item p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.mr {
+    margin-right: 30px;
+}
+
+/* ============================ Gallery Part css Start ========================== */
+
+#gallery {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #2c2c2c;
+}
+
+.gallery-head {
+    text-align: center;
+    padding-bottom: 27px;
+}
+
+.gallery-head h2 {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #d5d5d5;
+    position: relative;
+}
+
+.gallery-head h2::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: -109px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.gallery-head h2::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    right: -109px;
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.gal-item{
+    width: 25%;
+    float: left;
+}
+
+.gal-item img{
+    width: 100%;
+}
+
+.gal-button{
+    text-align: center;
+}
+
+.gal-button a{
+    display: inline-block;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    border: 1px solid #797979;
+    padding: 18px 20px;
+}
+
+.gal-button i{
+    padding-right: 7px;
+}
